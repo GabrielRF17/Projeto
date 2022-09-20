@@ -1,5 +1,6 @@
-r=1
-while [ "$x" != " " ]; do
+x=1
+
+while [ "$x" != "" ]; do
 x=$(zenity --list \
     --title="Trabalho" \
     --column="Questões" --column="Descrição" \
@@ -19,7 +20,7 @@ x=$(zenity --list \
     "Questão 13" "preguiça" \
 
 )
-
+echo "opa $x opa"
 [ -n "$x" ] && {
 case "$x" in
 "Questão 1")
