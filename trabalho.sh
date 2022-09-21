@@ -17,7 +17,7 @@ x=$(zenity --list \
     "Questão 10" "mesma coisa da anterior mas so para quando recebe palavra sair" \
     "Questão 11" "calculadora" \
     "Questão 12" "usuarios cadastrados no diretorio home" \
-    "Questão 13" "preguiça" \
+    "Questão 13" "Uma das informações armazenadas no arquivo /etc/passwd é o shell utilizado por cada usuário do sistema" \
 
 )
 echo "opa $x opa"
