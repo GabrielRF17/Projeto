@@ -2,8 +2,8 @@
 v=("$@")
 while [ "$p" != 'sair' ]
 do
-
-p=$(zenity --entry --text "Digite algo")
+#recebe uma palavra
+p=$(zenity --entry --text "Digite alguma palavra")
 if [ "$p" != 'sair' ]
 then
 v+="$p"
