@@ -24,6 +24,7 @@ x=$(zenity --list \
     "Questão 10" "recebe varias palavras e exibe em ordem alfabedica (programa so encerra ao digitar palavra (sair))" \
     "Questão 11" "calculadora" \
     "Questão 12" "usuarios cadastrados no diretorio home" \
+    "Questão 13" "Uma das informações armazenadas no arquivo /etc/passwd é o shell utilizado por cada usuário do sistema" \
     "Questão 13" "usuarios cadastrados em /etc/passwd" \
 
 )
