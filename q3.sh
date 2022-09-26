@@ -11,10 +11,10 @@ done
 zenity --list \
     --title="Trabalho" \
     --column="Diretorios" \
-    --text "" \
+    --text "" --width=150 --height=500\
     "${v[@]}"
 
 else
-	echo "nao existe" && exit
+	zenity --error --text "Diretorio Inexistente" && exit
 
 fi 
