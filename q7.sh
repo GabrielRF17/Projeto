@@ -44,8 +44,8 @@ function checar_intervalo {
     fi
 }
 
-data_inicial=$(zenity --entry --text "Data inicial Ex:(2008/02/07 2008/07/05 1,3)")
-data_final=$(zenity --entry --text "Data final")
+data_inicial=$(zenity --entry --text "Data inicial (Padrão americano)")
+data_final=$(zenity --entry --text "Data final (Padrão americano)")
 dias=$(zenity --entry --text "dias")
 
 checar_data $data_inicial

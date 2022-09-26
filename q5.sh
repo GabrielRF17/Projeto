@@ -1,8 +1,8 @@
 #!/bin/bash
-dir=$(zenity --entry --text "Diretorio")
+dir=$(zenity --entry --text "Digite o diretorio")
         if [[ $(wc -c $dir) ]]
         then
-                zenity --info --text="bytes $(wc -c $dir)"
+                zenity --info --text=" $(wc -c $dir) bytes"
         else
         	zenity --info --text="Diretorio inexistente"
         fi

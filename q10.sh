@@ -3,7 +3,7 @@ v=("$@")
 while [ "$p" != 'sair' ]
 do
 
-p=$(zenity --entry --text "Digite algo")
+p=$(zenity --entry --text "Uma palavra")
 if [ "$p" != 'sair' ]
 then
 v+="$p"
