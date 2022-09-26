@@ -18,6 +18,13 @@ x=$(zenity --list \
     "Questão 11" "calculadora" \
     "Questão 12" "usuarios cadastrados no diretorio home" \
     "Questão 13" "usuarios cadastrados no /etc/passwd " \
+    "Questão 7" "Reservar laboratorio" \
+    "Questão 8" "da o nome da primeira linha do arquivo como titulo" \
+    "Questão 9" "recebe lista de palavaras e exibe em ordem alfabetica" \
+    "Questão 10" "recebe varias palavras e exibe em ordem alfabedica (programa so encerra ao digitar palavra (sair))" \
+    "Questão 11" "calculadora" \
+    "Questão 12" "usuarios cadastrados no diretorio home" \
+    "Questão 13" "usuarios cadastrados em /etc/passwd" \
 
 )
 [ -n "$x" ] && {
