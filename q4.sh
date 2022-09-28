@@ -5,7 +5,7 @@ while [ $cont -le $dir ]
 do
 if [ $( echo $cont%2 | bc) -eq 0 ]
 then
-	v+=($cont)
+	v+=$cont
 fi
 cont=$((cont+1))
 done

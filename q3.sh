@@ -1,7 +1,7 @@
 #!/bin/bash
 v=()
 p=''
-x=$(zenity --entry --text "Digite o diretorio")
+x=$(zenity --entry --text "Digite o diretório")
 if [ -d "$x" ]; then
 	for opa in $(ls $x)
 do
@@ -15,6 +15,7 @@ zenity --list \
     "${v[@]}"
 
 else
+
 	zenity --error --text "Diretorio Inexistente" && exit
 
 fi 
