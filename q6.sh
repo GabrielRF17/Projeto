@@ -1,5 +1,5 @@
 x=1
-while [ "$x" != "Sair" ];
+while [ "$x" != "4" ];
 do
 x=$(zenity --list \
     --title="Trabalho" \
