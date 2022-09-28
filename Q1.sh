@@ -1,7 +1,10 @@
 #!/bin/bash
+
 x1=$(zenity --entry --text "Digite primeiro valor:")
 x2=$(zenity --entry --text "Digite segundo valor:")
+
 echo "$x1"
+#Diz qual é o maior Número ou se são iguais
 if [ $x1 -gt $x2 ]; then
     zenity --info --text="Maior número é: $x1"
 	

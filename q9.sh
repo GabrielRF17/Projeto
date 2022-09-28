@@ -1,4 +1,4 @@
-nome=$(zenity --entry --text "Digite algo")
+nome=$(zenity --entry --text "Digite as palavras a serem ordenadas")
 #ordena em ordem alfabetica
 nome=$(tr " " "\\n" <<< "$nome"|sort|paste -sd ' ')
 #troca espaços por \n

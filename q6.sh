@@ -1,9 +1,9 @@
 x=1
-while [ $x -ne 4 ]
+while [ "$x" != "Sair" ];
 do
 x=$(zenity --list \
     --title="Trabalho" \
-    --column="Opção" --column="Descrição" \
+    --column="Opções" --column="Descrição" \
     --text "" \
     "1" "Exibir status da utilização das partições do sistema" \
     "2" "Exibir relação de usuário logados" \

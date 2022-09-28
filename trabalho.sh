@@ -7,20 +7,19 @@ x=$(zenity --list \
     --text "" --width=1000 --height=420\
     "Questão 1" "maior numero entre 2 numeros e sua soma" \
     "Questão 2" "verificação de usuario no sistema" \
-    "Questão 3" "colocar (dir) nos arquivos que são diretorios" \
+    "Questão 3" "coloca (dir) nos arquivos que são diretorios" \
     "Questão 4" "exibe todos os numeros pares no intervalo de 0 ate x" \
     "Questão 5" "recebe nome de arquivo como parametro e informa se o mesmo existe e imprime seu tamanho em bytes" \
     "Questão 6" "exibe status partição/usuarios logados/data e hora" \
-    "Questão 7" "ate agora nao entendi o q essa questao pede" \
-    "Questão 8" "da o nome da primeira linha do arquivo como titulo" \
+    "Questão 7" "Reservar laboratorio" \
+    "Questão 8" "renomeia o nome da primeira linha do arquivo como titulo" \
     "Questão 9" "recebe lista de palavaras e exibe em ordem alfabetica" \
-    "Questão 10" "mesma coisa da anterior mas so para quando recebe palavra sair" \
+    "Questão 10" "recebe varias palavras e exibe em ordem alfabedica (programa so encerra ao digitar palavra (sair))" \
     "Questão 11" "calculadora" \
     "Questão 12" "usuarios cadastrados no diretorio home" \
-    "Questão 13" "preguiça" \
+    "Questão 13" "usuarios cadastrados em /etc/passwd" \
 
 )
-echo "opa $x opa"
 [ -n "$x" ] && {
 case "$x" in
 "Questão 1")
