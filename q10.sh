@@ -4,7 +4,7 @@ while [ "$p" != 'sair' ]
 do
 #recebe uma palavra
 
-p=$(zenity --entry --text "Uma palavra")
+p=$(zenity --entry --text "Digite uma palavra")
 
 if [ "$p" != 'sair' ]
 then
